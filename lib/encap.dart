@@ -7,4 +7,6 @@ void main(){
   kfc.setId = 5033;
   print(kfc.restaurantId);
   print(kfc.village);
+  print(kfc.village);
+  print(kfc.village);
 }
