@@ -21,7 +21,11 @@ class Restaurant{
   }
   //getter method
   int get restaurantId => _id;
+  // int get restaurantId{
+  //   return _id;
+  // }
    //setter method
+
    set setId(int value){
      _id = value;
    }
