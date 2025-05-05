@@ -19,7 +19,9 @@ class Restaurant{
   _payment(String amount){
      print("New payment $amount");
   }
+  //getter method
   int get restaurantId => _id;
+   //setter method
    set setId(int value){
      _id = value;
    }
