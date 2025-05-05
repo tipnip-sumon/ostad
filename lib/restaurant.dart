@@ -1,5 +1,5 @@
 void main(){
-  Restaurant res = Restaurant('kfc');
+  Restaurant res = Restaurant('kfc','Mohammadpur');
   print(res.name);
 }
 
@@ -7,8 +7,9 @@ void main(){
 class Restaurant{
   String name;
   int _id = 2050;
+  String village;
 
-  Restaurant(this.name);
+  Restaurant(this.name,this.village);
 
 
    order(String item){
