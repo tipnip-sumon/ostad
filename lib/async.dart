@@ -1,8 +1,9 @@
-main(){
+main() async {
   userAbleToVote(17).then((value){
     print(value);
   });
-  test();
+  await test();
+  print("After all done");
 }
 
 Future<bool> userAbleToVote(int age) async {
