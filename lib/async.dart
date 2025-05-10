@@ -18,4 +18,5 @@ Future<void> test() async {
   print("Run after 5 secound");
   });
   print("Function end");
+  print("Function end");
 }
